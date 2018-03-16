@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+
+- (IBAction)popAction:(id)sender {
+    
+    [TestViewController showUpon:self];
+}
+
 
 
 - (void)didReceiveMemoryWarning {

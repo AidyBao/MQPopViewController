@@ -13,6 +13,9 @@
 		7A99C618205B9F9B00F9656F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A99C617205B9F9B00F9656F /* Assets.xcassets */; };
 		7A99C61B205B9F9B00F9656F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A99C619205B9F9B00F9656F /* LaunchScreen.storyboard */; };
 		7A99C61E205B9F9B00F9656F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99C61D205B9F9B00F9656F /* main.m */; };
+		7A99C626205B9FD200F9656F /* DimmingPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99C625205B9FD200F9656F /* DimmingPresentationController.m */; };
+		7A99C62A205BA05200F9656F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99C628205BA05200F9656F /* TestViewController.m */; };
+		7A99C62B205BA05200F9656F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A99C629205BA05200F9656F /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		7A99C61A205B9F9B00F9656F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A99C61C205B9F9B00F9656F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A99C61D205B9F9B00F9656F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A99C624205B9FD200F9656F /* DimmingPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DimmingPresentationController.h; sourceTree = "<group>"; };
+		7A99C625205B9FD200F9656F /* DimmingPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DimmingPresentationController.m; sourceTree = "<group>"; };
+		7A99C627205BA05200F9656F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7A99C628205BA05200F9656F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7A99C629205BA05200F9656F /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				7A99C60F205B9F9B00F9656F /* AppDelegate.m */,
 				7A99C611205B9F9B00F9656F /* ViewController.h */,
 				7A99C612205B9F9B00F9656F /* ViewController.m */,
+				7A99C627205BA05200F9656F /* TestViewController.h */,
+				7A99C628205BA05200F9656F /* TestViewController.m */,
+				7A99C629205BA05200F9656F /* TestViewController.xib */,
+				7A99C624205B9FD200F9656F /* DimmingPresentationController.h */,
+				7A99C625205B9FD200F9656F /* DimmingPresentationController.m */,
 				7A99C614205B9F9B00F9656F /* Main.storyboard */,
 				7A99C617205B9F9B00F9656F /* Assets.xcassets */,
 				7A99C619205B9F9B00F9656F /* LaunchScreen.storyboard */,
@@ -131,6 +144,7 @@
 			files = (
 				7A99C61B205B9F9B00F9656F /* LaunchScreen.storyboard in Resources */,
 				7A99C618205B9F9B00F9656F /* Assets.xcassets in Resources */,
+				7A99C62B205BA05200F9656F /* TestViewController.xib in Resources */,
 				7A99C616205B9F9B00F9656F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +159,8 @@
 				7A99C613205B9F9B00F9656F /* ViewController.m in Sources */,
 				7A99C61E205B9F9B00F9656F /* main.m in Sources */,
 				7A99C610205B9F9B00F9656F /* AppDelegate.m in Sources */,
+				7A99C626205B9FD200F9656F /* DimmingPresentationController.m in Sources */,
+				7A99C62A205BA05200F9656F /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
